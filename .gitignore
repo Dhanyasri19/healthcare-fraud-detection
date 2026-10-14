@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Model artifacts and generated outputs
+artifacts/
+outputs/
+*.pkl
+*.joblib
+
+# Private/raw datasets: commit only synthetic/anonymized samples intentionally
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Notebook / editor
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
